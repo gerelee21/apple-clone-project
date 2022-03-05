@@ -9,6 +9,7 @@
       * {
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
       }
       .header {
         background-color: #2b2b2e;
@@ -53,6 +54,7 @@
       .banner-area img {
         width: 100%;
         cursor: pointer;
+        margin: 6px;
       }
       .banner-area p {
         color: #2b2b2e;
@@ -68,7 +70,8 @@
       }
       .urgelj {
         float: left;
-        width: 50%;
+        width: 49.6%;
+        padding-right: 6px;
       }
       .title h1 {
         position: absolute;
@@ -81,78 +84,110 @@
       .title h4 {
         position: absolute;
         left: 47%;
-        top: 20%;
+        top: 21%;
         font-size: 25px;
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
           sans-serif;
         font-weight: lighter;
       }
-      .title a {
-        font-size: 18px;
-        text-decoration: none;
-        align-items: center;
+      .title h2 {
+        position: absolute;
+        font-size: 23px;
+        top: 25%;
+        left: 44%;
+        color: rgb(0, 132, 255);
+        font-weight: lighter;
+      }
+      .title h3 {
+        position: absolute;
+        font-size: 23px;
+        top: 25%;
+        left: 52%;
+        color: rgb(0, 132, 255);
+        font-weight: lighter;
       }
       .ygaan h1 {
         position: absolute;
         left: 44%;
-        top: 65%;
+        top: 183%;
         font-size: 45px;
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
           sans-serif;
-        color: aliceblue;
+        color: rgb(44, 44, 44);
       }
       .ygaan h3 {
         position: absolute;
         left: 42.5%;
-        top: 70%;
+        top: 188%;
         font-size: 25px;
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
           sans-serif;
-        color: rgb(247, 160, 255);
+        color: rgb(94, 94, 94);
+      }
+      .ygaan h2 {
+        position: absolute;
+        left: 44%;
+        top: 192%;
+        font-size: 23px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        color: rgb(0, 132, 255);
+        font-weight: lighter;
+      }
+      .ygaan h4 {
+        position: absolute;
+        left: 52%;
+        top: 192%;
+        font-size: 23px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        color: rgb(0, 132, 255);
+        font-weight: lighter;
       }
       .tsag h5 {
         position: absolute;
-        left: 50%;
-        top: 113%;
-        font-size: 18px;
+        left: 78%;
+        top: 378%;
+        font-size: 50px;
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
           sans-serif;
         color: chocolate;
         font-weight: lighter;
       }
-      .tsag h1 {
-        position: absolute;
-        left: 47%;
-        top: 115%;
-        font-size: 45px;
-        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-          sans-serif;
-      }
-      .tsag h3 {
-        position: absolute;
-        left: 48.7%;
-        top: 120%;
-        font-size: 19px;
-        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-          sans-serif;
-        color: rgb(177, 0, 0);
-        font-weight: lighter;
-        letter-spacing: 3px;
-      }
       .tsag h2 {
         position: absolute;
-        left: 42%;
-        top: 124%;
+        left: 72.5%;
+        top: 410%;
         font-size: 23px;
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
           sans-serif;
-        color: rgb(44, 44, 44);
+        color: rgb(255, 255, 255);
+        font-weight: lighter;
+      }
+      .tsag h1 {
+        position: absolute;
+        left: 73%;
+        top: 415%;
+        font-size: 23px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        color: rgb(0, 132, 255);
+        font-weight: lighter;
+      }
+      .tsag h3 {
+        position: absolute;
+        left: 85%;
+        top: 415%;
+        font-size: 23px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        color: rgb(0, 132, 255);
         font-weight: lighter;
       }
       .applee h1 {
         position: absolute;
         left: 18%;
-        top: 191%;
+        top: 488%;
         font-size: 45px;
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
           sans-serif;
@@ -161,36 +196,57 @@
       .applee h3 {
         position: absolute;
         left: 17.5%;
-        top: 196.5%;
+        top: 493%;
         font-size: 23px;
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
           sans-serif;
         color: rgb(255, 255, 255);
         font-weight: lighter;
       }
-      .mac h1 {
+      .applee h2 {
         position: absolute;
-        left: 67.8%;
-        top: 167%;
-        font-size: 45px;
+        left: 21.5%;
+        top: 496%;
+        font-size: 23px;
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
           sans-serif;
-        color: rgb(44, 44, 44);
+        color: rgb(0, 135, 255);
+        font-weight: lighter;
       }
-      .mac h3 {
+      .mac h1 {
         position: absolute;
-        left: 70%;
-        top: 173%;
+        left: 69.5%;
+        top: 472%;
         font-size: 23px;
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
           sans-serif;
         color: rgb(95, 95, 95);
         font-weight: lighter;
       }
+      .mac h2 {
+        position: absolute;
+        left: 68.5%;
+        top: 475.5%;
+        font-size: 23px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        color: rgb(0, 135, 255);
+        font-weight: lighter;
+      }
+      .mac h3 {
+        position: absolute;
+        left: 78%;
+        top: 475.5%;
+        font-size: 23px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        color: rgb(0, 135, 255);
+        font-weight: lighter;
+      }
       .pods h1 {
         position: absolute;
         left: 19%;
-        top: 240%;
+        top: 510%;
         font-size: 45px;
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
           sans-serif;
@@ -199,36 +255,76 @@
       .pods h2 {
         position: absolute;
         left: 17%;
-        top: 246%;
+        top: 515%;
         font-size: 23px;
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
           sans-serif;
         color: rgb(94, 94, 94);
         font-weight: lighter;
       }
+      .pods h3 {
+        position: absolute;
+        left: 17%;
+        top: 555%;
+        font-size: 23px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        color: rgb(0, 135, 255);
+        font-weight: lighter;
+      }
+      .pods h4 {
+        position: absolute;
+        left: 28%;
+        top: 555%;
+        font-size: 23px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        color: rgb(0, 135, 255);
+        font-weight: lighter;
+      }
       .fit h1 {
         position: absolute;
-        left: 70%;
-        top: 207%;
-        font-size: 45px;
+        left: 58%;
+        top: 515%;
+        font-size: 50px;
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
           sans-serif;
         color: rgb(44, 44, 44);
       }
       .fit h2 {
         position: absolute;
-        left: 62%;
-        top: 212.5%;
+        left: 74%;
+        top: 565.5%;
         font-size: 23px;
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
           sans-serif;
         color: rgb(94, 94, 94);
         font-weight: lighter;
       }
+      .fit h3 {
+        position: absolute;
+        left: 58%;
+        top: 521%;
+        font-size: 23px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        color: rgb(0, 135, 255);
+        font-weight: lighter;
+      }
+      .fit h4 {
+        position: absolute;
+        left: 84%;
+        top: 521%;
+        font-size: 23px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        color: rgb(0, 135, 255);
+        font-weight: lighter;
+      }
       .card h1 {
         position: absolute;
         left: 20.4%;
-        top: 256%;
+        top: 578%;
         font-size: 45px;
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
           sans-serif;
@@ -237,7 +333,7 @@
       .card h2 {
         position: absolute;
         left: 16%;
-        top: 262%;
+        top: 584%;
         font-size: 23px;
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
           sans-serif;
@@ -247,22 +343,73 @@
       .card h3 {
         position: absolute;
         left: 18%;
-        top: 264.5%;
+        top: 588%;
         font-size: 23px;
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
           sans-serif;
         color: rgb(94, 94, 94);
         font-weight: lighter;
       }
-      .j-stewart h1 {
+      .card h4 {
         position: absolute;
-        left: 75%;
-        top: 254%;
-        font-size: 37px;
+        left: 16%;
+        top: 592%;
+        font-size: 23px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        color: rgb(0, 135, 255);
+        font-weight: lighter;
+      }
+      .card h5 {
+        position: absolute;
+        left: 25%;
+        top: 592%;
+        font-size: 23px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        color: rgb(0, 135, 255);
+        font-weight: lighter;
+      }
+      .peanuts h1 {
+        position: absolute;
+        left: 72%;
+        top: 585%;
+        font-size: 45px;
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
           sans-serif;
         color: rgb(44, 44, 44);
       }
+      .peanuts h2 {
+        position: absolute;
+        left: 70%;
+        top: 589%;
+        font-size: 25px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        color: rgb(44, 44, 44);
+      }
+      .footer {
+        justify-content: center;
+        width: 80%;
+        height: 80vh;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      .footer a {
+        display: flex;
+        flex-direction: column;
+        margin-right: 4rem;
+        text-decoration: none;
+        line-height: 25px;
+        font-size: 15;
+      }
+      .footer h1 {
+        font-size: 15px;
+        padding-top: 30px;
+      }
+      
     </style>
   </head>
   <body>
@@ -306,54 +453,66 @@
       <div class="title">
         <h1>iPhone 13 pro</h1>
         <h4>Oh.So.Pro.</h4>
-        <a href="https://www.apple.com/iphone-13-pro/">Learn more > </a>
+        <h2>Learn more ></h2>
+        <h3>Buy ></h3>
       </div>
       <div class="ygaan">
         <h1>iPhone 13</h1>
         <h3>Your new superpower.</h3>
+        <h2>Learn more ></h2>
+        <h4>Buy ></h4>
       </div>
       <div class="tsag">
-        <h5>New...</h5>
-        <h1>Watch</h1>
-        <h3></h3>
+        <h5>New</h5>
         <h2>Introducing our largest display yet.</h2>
+        <h1>Learn more ></h1>
+        <h3>Buy ></h3>
       </div>
       <div class="applee">
         <h1>Apple Event</h1>
         <h3>Watch om 3/8 at 10 a.m. PST.</h3>
+        <h2>Learn more ></h2>
       </div>
       <div class="mac">
-        <h1>MacBook Pro</h1>
-        <h3>Supercharged for pros.</h3>
+        <h1>Supercharged for pros.</h1>
+        <h2>Learn more ></h2>
+        <h3>Buy ></h3>
       </div>
       <div class="pods">
         <h1>AirPods</h1>
         <h2>All-new with Spatial Audio</h2>
+        <h3>Learn more ></h3>
+        <h4>Buy ></h4>
       </div>
       <div class="fit">
         <h1>Fitness+</h1>
         <h2>Get 3 months free when you buy an Apple Watch.</h2>
+        <h3>Learn More ></h3>
+        <h4>Shop Apple Watch ></h4>
       </div>
       <div class="card">
         <h1>Card</h1>
         <h2>Get up to 3% Daily Cash back</h2>
         <h3>with every purchase</h3>
+        <h4>Learn more ></h4>
+        <h5>Apply now ></h5>
       </div>
-      <div class="j-stewart">
+      <div class="peanuts">
         <h1>tv+</h1>
+        <h2>stream now</h2>
       </div>
       <img
-        src="https://www.apple.com/v/home/ak/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_largetall.jpg"
+        src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-gallery-2_GEO_US?wid=2824&hei=2400&fmt=jpeg&qlt=80&.v=1631658249000"
         alt="iphone-13-pro"
       />
 
       <img
-        src="https://www.apple.com/v/home/ak/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_largetall.jpg"
-        alt="iphone-13pro2"
+        src="https://cdn.shopify.com/s/files/1/2517/8664/collections/iPhone_13_Lineup.jpg?v=1631869020"
+        alt="iphone-13"
       />
 
       <img
-        src="https://www.apple.com/v/home/ak/images/heroes/watch-series-7/hero_watch__f05go333pz2i_largetall.jpg"
+        src="https://i.ytimg.com/vi/zQ92xdCyl98/maxresdefault.jpg"
         alt="watch"
       />
       <div class="urgelj">
@@ -363,20 +522,14 @@
         />
       </div>
       <div class="urgelj">
-        <img
-          src="https://www.apple.com/v/home/ak/images/promos/macbook-pro/tile_macbookpro__cx0ur0qg9biq_large.jpg"
-          alt="mac"
-        />
+        <img src="macbook.jpg" alt="mac" />
+      </div>
+      <div class="urgelj">
+        <img src="airpods.jpeg" alt="airpods" />
       </div>
       <div class="urgelj">
         <img
-          src="https://www.apple.com/v/home/ak/images/promos/airpods/tile_airpods__fuv6vgn42y2q_large.jpg"
-          alt="airpods"
-        />
-      </div>
-      <div class="urgelj">
-        <img
-          src="https://www.apple.com/v/home/ak/images/promos/apple-fitness-plus/tile_applefitness__fdk8xvz0dvu6_large.jpg"
+          src="https://applemagazine.com/wp-content/uploads/2020/11/Apple-Fitness2.png"
           alt="fitness"
         />
       </div>
@@ -388,8 +541,8 @@
       </div>
       <div class="urgelj">
         <img
-          src="https://www.apple.com/v/home/ak/images/promos/tv-plus-stewart/tile_jon_stewart__fuf95cm164mu_large.jpg"
-          alt="j-stewart"
+          src="https://www.apple.com/v/home/ak/images/promos/tv-plus-peanuts-classics/promo_peanuts_classics__rgfhj4kf0xeu_large.jpg"
+          alt="peanuts"
         />
       </div>
     </div>
@@ -430,6 +583,86 @@
             and other terms apply.
           </li>
         </ul>
+      </div>
+      <div class="footer">
+        <div class="footers-1">
+          <h1>Shop and Learn</h1>
+          <a href="">Store</a>
+          <a href="">Mac</a>
+          <a href="">iPad</a>
+          <a href="">iPhone</a>
+          <a href="">Watch</a>
+          <a href="">AirPods</a>
+          <a href="">TV & Home </a>
+          <a href="">iPod touch</a>
+          <a href="">AirTag</a>
+          <a href="">Accessories</a>
+          <a href="">Gift Cards</a>
+        </div>
+        <div class="footers-2">
+          <h1>Services</h1>
+          <a href="">Apple Music</a>
+          <a href="">Apple TV+</a>
+          <a href="">Apple Fitness+</a>
+          <a href="">Apple News+</a>
+          <a href="">Apple Arcade</a>
+          <a href="">iCloud</a>
+          <a href="">Apple One</a>
+          <a href="">Apple Card</a>
+          <a href="">Apple Books</a>
+          <a href="">Apple Podcasts</a>
+          <a href="">App Store</a>
+          <h1>Account</h1>
+          <a href="">Manage Your Apple ID</a>
+          <a href="">Apple Store Account</a>
+          <a href="">iCloud.com</a>
+        </div>
+        <div class="footers-3">
+          <h1>Apple Store</h1>
+          <a href="">Find a Store</a>
+          <a href="">Genius Bar</a>
+          <a href="">Today at Apple</a>
+          <a href="">Apple camp</a>
+          <a href="">Apple Store App</a>
+          <a href="">Refurbished and Clearance</a>
+          <a href="">Financing</a>
+          <a href="">Apple Trade In</a>
+          <a href="">Order Status</a>
+          <a href="">Shopping Help</a>
+        </div>
+        <div class="footers-4">
+          <h1>For Bussiness</h1>
+          <a href="">Apple and Bussiness</a>
+          <a href="">Shop for Bussiness</a>
+          <h1>For Education</h1>
+          <a href="">Apple and Education</a>
+          <a href="">Shop for K-12</a>
+          <a href="">Shop for College</a>
+          <h1>For Healthcare</h1>
+          <a href="">Apple in Healthcare</a>
+          <a href="">Health on Apple Watch</a>
+          <a href="">Health Records on iPhone</a>
+          <h1>For Government</h1>
+          <a href="">Shop for Government</a>
+          <a href="">Shop for Veterans and Military</a>
+        </div>
+        <div class="footers-5">
+          <h1>Apple Values</h1>
+          <a href="">Accessbility</a>
+          <a href="">Education</a>
+          <a href="">Environment</a>
+          <a href="">Inclusion and Diversity</a>
+          <a href="">Privacy</a>
+          <a href="">Racial Equity and Justice</a>
+          <a href="">Supplier responsibility</a>
+          <h1>About Apple</h1>
+          <a href="">Newsroom</a>
+          <a href="">Career Opportunities</a>
+          <a href="">Investors</a>
+          <a href="">Ethics & Compliance</a>
+          <a href="">Events</a>
+          <a href="">Contact Apple</a>
+        </div>
       </div>
     </footer>
   </body>
